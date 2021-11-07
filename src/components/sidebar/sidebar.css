@@ -1,0 +1,95 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 5rem);
+  overflow-y: scroll;
+  position: sticky;
+  top: 5rem;
+}
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #929292;
+}
+.sidebarWrapper {
+  padding: 2rem;
+}
+.sidebarList ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.sidebarList ul li:hover {
+  background-color: rgb(240, 240, 240);
+}
+.sidebarList ul li .MuiSvgIcon-root {
+  font-size: 2.5rem;
+  margin-right: 2rem;
+}
+.sidebarBtn {
+  border: none;
+  background-color: #efefef;
+  width: 15rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.sidebarHr {
+  margin: 2rem 0;
+  height: 0.2rem;
+}
+.sidebarFriendsList ul li {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.sidebarFriendsList ul li:hover {
+  background-color: rgb(240, 240, 240);
+}
+.sidebarFriendsList ul li img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  border: 0.2rem solid rgb(84, 150, 111);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.friendName {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 1rem;
+  text-transform: capitalize;
+}

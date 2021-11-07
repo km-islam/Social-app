@@ -1,0 +1,118 @@
+.rightbar {
+  flex: 3.5;
+}
+.rightbarWrapper {
+  padding: 3rem 2rem 0 0;
+}
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 0.68) 0px 0px 16px -8px;
+}
+.birthdayContainer img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+.birthdayContainer span {
+  font-size: 1.8rem;
+}
+.rightbarAd {
+  border-bottom: 0.2rem solid #ddd;
+}
+.rightbarAd img {
+  border-radius: 1rem;
+  object-fit: cover;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.rightbarContactList {
+  margin-top: 2rem;
+}
+.contactListTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactListTitle h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #65676b;
+}
+.contactListTitleIcon ul {
+  display: flex;
+  align-items: center;
+}
+.contactListTitleIcon ul li {
+  margin-left: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.contactListTitleIcon .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: #050505;
+  cursor: pointer;
+}
+.contactListTitleIcon ul li:hover {
+  background-color: #ddd;
+}
+.friendProfile {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.friendProfile:hover {
+  background-color: #ddd;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.friendProfile img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.friendProfile span {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  color: #050505;
+}
+.onlineStatus {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.3rem solid #ddd;
+  bottom: 1rem;
+  left: 3.8rem;
+  background-color: limegreen;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

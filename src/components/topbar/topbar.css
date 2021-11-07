@@ -1,0 +1,109 @@
+.topbarContainer {
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #1877f2;
+  z-index: 999;
+}
+.topbarLeft {
+  flex: 3;
+  margin-left: 2rem;
+}
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.topbarCenter {
+  flex: 5;
+}
+.searchbar {
+  width: 100%;
+  height: 3rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+.searchIcon {
+  font-size: 2.2rem !important;
+}
+.searchInput {
+  border: none;
+  margin-left: 0.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.topbarLink {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.topbarIcons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.topbarIconItem {
+  color: #fff;
+  margin: 0 1rem;
+  cursor: pointer;
+  position: relative;
+}
+.topbarIconItem .MuiSvgIcon-root {
+  font-size: 2.5rem;
+}
+.topbarIconBadge {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5em;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  top: -0.5rem;
+  right: -0.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.topbarImg {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.userprofile {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.userprofile span {
+  padding-left: 1rem;
+  color: #fff;
+  cursor: pointer;
+}

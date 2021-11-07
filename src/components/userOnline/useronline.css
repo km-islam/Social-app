@@ -1,0 +1,44 @@
+.friendProfile {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.friendProfile:hover {
+  background-color: #ddd;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.friendProfile img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.friendProfile span {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  color: #050505;
+}
+.onlineStatus {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.3rem solid #ddd;
+  bottom: 1rem;
+  left: 3.8rem;
+  background-color: limegreen;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
